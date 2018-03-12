@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGBookReview", "RPGBookReview.csproj", "{08CB54B0-DF0E-33F4-BA01-BD486FD0DB72}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGBookReview.Plugins", "RPGBookReview.Plugins.csproj", "{EC3C5979-C5D7-BFB3-2D5F-040F6DB889EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGBookReview.Editor", "RPGBookReview.Editor.csproj", "{F7C0C0C1-20B2-39AE-5E7E-0AAE98435D3D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGBookReview", "RPGBookReview.csproj", "{08CB54B0-DF0E-33F4-BA01-BD486FD0DB72}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGBookReview.Editor.Plugins", "RPGBookReview.Editor.Plugins.csproj", "{4A055E2A-FF2D-F536-CFC4-F7EE4C08B74F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGBookReview.Editor", "RPGBookReview.Editor.csproj", "{F7C0C0C1-20B2-39AE-5E7E-0AAE98435D3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,22 +15,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{08CB54B0-DF0E-33F4-BA01-BD486FD0DB72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{08CB54B0-DF0E-33F4-BA01-BD486FD0DB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{08CB54B0-DF0E-33F4-BA01-BD486FD0DB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{08CB54B0-DF0E-33F4-BA01-BD486FD0DB72}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EC3C5979-C5D7-BFB3-2D5F-040F6DB889EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EC3C5979-C5D7-BFB3-2D5F-040F6DB889EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC3C5979-C5D7-BFB3-2D5F-040F6DB889EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC3C5979-C5D7-BFB3-2D5F-040F6DB889EF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F7C0C0C1-20B2-39AE-5E7E-0AAE98435D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7C0C0C1-20B2-39AE-5E7E-0AAE98435D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7C0C0C1-20B2-39AE-5E7E-0AAE98435D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7C0C0C1-20B2-39AE-5E7E-0AAE98435D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08CB54B0-DF0E-33F4-BA01-BD486FD0DB72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CB54B0-DF0E-33F4-BA01-BD486FD0DB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CB54B0-DF0E-33F4-BA01-BD486FD0DB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CB54B0-DF0E-33F4-BA01-BD486FD0DB72}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4A055E2A-FF2D-F536-CFC4-F7EE4C08B74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4A055E2A-FF2D-F536-CFC4-F7EE4C08B74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A055E2A-FF2D-F536-CFC4-F7EE4C08B74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A055E2A-FF2D-F536-CFC4-F7EE4C08B74F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C0C0C1-20B2-39AE-5E7E-0AAE98435D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C0C0C1-20B2-39AE-5E7E-0AAE98435D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C0C0C1-20B2-39AE-5E7E-0AAE98435D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C0C0C1-20B2-39AE-5E7E-0AAE98435D3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
