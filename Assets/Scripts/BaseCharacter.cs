@@ -1,16 +1,29 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class BaseCharacter : MonoBehaviour {
+namespace Assets.Scripts
+{
+    public class BaseCharacter : MonoBehaviour
+    {
+        //Define attribute for base character
+        public string Name;
+        public string Description;
 
-	// Use this for initialization
-	void Start () {
+        public float Strength;
+        public float Defense;
+        public float Dexterity;
+        public float Intelligence;
+        public float Health;
+
+        // Use this for initialization
+        void Start ()
+        {
 		
-	}
+        }
 	
-	// Update is called once per frame
-	void Update () {
+        // Update is called once per frame
+        void Update ()
+        {
 		
-	}
+        }
+    }
 }
