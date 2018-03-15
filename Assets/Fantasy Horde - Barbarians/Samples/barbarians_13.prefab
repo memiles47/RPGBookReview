@@ -5,9 +5,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 496582}
+  - component: {fileID: 496582}
   m_Layer: 0
   m_Name: BarbarianNeck
   m_TagString: Untagged
@@ -20,9 +20,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 443260}
+  - component: {fileID: 443260}
   m_Layer: 0
   m_Name: BarbarianRDigit23
   m_TagString: Untagged
@@ -35,9 +35,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 409696}
+  - component: {fileID: 409696}
   m_Layer: 0
   m_Name: BarbarianRForearm
   m_TagString: Untagged
@@ -50,11 +50,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 482326}
-  - 33: {fileID: 3358926}
-  - 23: {fileID: 2341184}
+  - component: {fileID: 482326}
+  - component: {fileID: 3358926}
+  - component: {fileID: 2341184}
   m_Layer: 0
   m_Name: barbarian_shoulder pad_03_L_LOD1
   m_TagString: Untagged
@@ -67,9 +67,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 474636}
+  - component: {fileID: 474636}
   m_Layer: 0
   m_Name: Barbarian_weaponR
   m_TagString: Untagged
@@ -82,9 +82,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 491516}
+  - component: {fileID: 491516}
   m_Layer: 0
   m_Name: BarbarianRCalf
   m_TagString: Untagged
@@ -97,9 +97,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 452314}
+  - component: {fileID: 452314}
   m_Layer: 0
   m_Name: BarbarianLUpperarm
   m_TagString: Untagged
@@ -112,9 +112,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 471526}
+  - component: {fileID: 471526}
   m_Layer: 0
   m_Name: BarbarianRDigit13
   m_TagString: Untagged
@@ -127,9 +127,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 432694}
+  - component: {fileID: 432694}
   m_Layer: 0
   m_Name: Barbarianjaw
   m_TagString: Untagged
@@ -142,11 +142,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 423710}
-  - 33: {fileID: 3320378}
-  - 23: {fileID: 2320726}
+  - component: {fileID: 423710}
+  - component: {fileID: 3320378}
+  - component: {fileID: 2320726}
   m_Layer: 0
   m_Name: barbarian_arm_plate_01_L_LOD0
   m_TagString: Untagged
@@ -159,9 +159,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 410514}
+  - component: {fileID: 410514}
   m_Layer: 0
   m_Name: Barbariancloth_back
   m_TagString: Untagged
@@ -174,9 +174,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 436622}
+  - component: {fileID: 436622}
   m_Layer: 0
   m_Name: BarbarianLPalm
   m_TagString: Untagged
@@ -189,9 +189,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 498410}
+  - component: {fileID: 498410}
   m_Layer: 0
   m_Name: BarbarianSpine1
   m_TagString: Untagged
@@ -204,10 +204,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 445840}
-  - 137: {fileID: 13723134}
+  - component: {fileID: 445840}
+  - component: {fileID: 13723134}
   m_Layer: 0
   m_Name: barbarian_cloth_03_LOD1
   m_TagString: Untagged
@@ -220,9 +220,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 483172}
+  - component: {fileID: 483172}
   m_Layer: 0
   m_Name: BarbarianLDigit41
   m_TagString: Untagged
@@ -235,9 +235,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 424736}
+  - component: {fileID: 424736}
   m_Layer: 0
   m_Name: BarbarianRDigit33
   m_TagString: Untagged
@@ -250,9 +250,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 460068}
+  - component: {fileID: 460068}
   m_Layer: 0
   m_Name: BarbarianRDigit21
   m_TagString: Untagged
@@ -265,9 +265,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 497908}
+  - component: {fileID: 497908}
   m_Layer: 0
   m_Name: BarbarianLDigit32
   m_TagString: Untagged
@@ -280,9 +280,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 435864}
+  - component: {fileID: 435864}
   m_Layer: 0
   m_Name: BarbarianLCalf
   m_TagString: Untagged
@@ -295,11 +295,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 403350}
-  - 33: {fileID: 3328364}
-  - 23: {fileID: 2397630}
+  - component: {fileID: 403350}
+  - component: {fileID: 3328364}
+  - component: {fileID: 2397630}
   m_Layer: 0
   m_Name: shield_02_LOD1
   m_TagString: Untagged
@@ -312,9 +312,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 483018}
+  - component: {fileID: 483018}
   m_Layer: 0
   m_Name: BarbarianLForearm
   m_TagString: Untagged
@@ -327,9 +327,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 466064}
+  - component: {fileID: 466064}
   m_Layer: 0
   m_Name: BarbarianRDigit42
   m_TagString: Untagged
@@ -342,9 +342,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 418388}
+  - component: {fileID: 418388}
   m_Layer: 0
   m_Name: BarbarianRtoe1
   m_TagString: Untagged
@@ -357,11 +357,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 458718}
-  - 33: {fileID: 3369068}
-  - 23: {fileID: 2307518}
+  - component: {fileID: 458718}
+  - component: {fileID: 3369068}
+  - component: {fileID: 2307518}
   m_Layer: 0
   m_Name: barbarian_shoulder_pad_03_L_LOD0
   m_TagString: Untagged
@@ -374,9 +374,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 480380}
+  - component: {fileID: 480380}
   m_Layer: 0
   m_Name: BarbarianLDigit23
   m_TagString: Untagged
@@ -389,9 +389,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 487876}
+  - component: {fileID: 487876}
   m_Layer: 0
   m_Name: BarbarianRDigit12
   m_TagString: Untagged
@@ -404,9 +404,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 484234}
+  - component: {fileID: 484234}
   m_Layer: 0
   m_Name: BarbarianLDigit13
   m_TagString: Untagged
@@ -419,9 +419,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 485216}
+  - component: {fileID: 485216}
   m_Layer: 0
   m_Name: BarbarianRFoot
   m_TagString: Untagged
@@ -434,11 +434,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 474398}
-  - 33: {fileID: 3360456}
-  - 23: {fileID: 2312450}
+  - component: {fileID: 474398}
+  - component: {fileID: 3360456}
+  - component: {fileID: 2312450}
   m_Layer: 0
   m_Name: barbarian_arm plate_01_L_LOD1
   m_TagString: Untagged
@@ -451,9 +451,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 402794}
+  - component: {fileID: 402794}
   m_Layer: 0
   m_Name: BarbarianRDigit43
   m_TagString: Untagged
@@ -466,11 +466,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 470422}
-  - 33: {fileID: 3301420}
-  - 23: {fileID: 2388460}
+  - component: {fileID: 470422}
+  - component: {fileID: 3301420}
+  - component: {fileID: 2388460}
   m_Layer: 0
   m_Name: falchion_01_LOD1
   m_TagString: Untagged
@@ -483,11 +483,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 405568}
-  - 33: {fileID: 3325064}
-  - 23: {fileID: 2363966}
+  - component: {fileID: 405568}
+  - component: {fileID: 3325064}
+  - component: {fileID: 2363966}
   m_Layer: 0
   m_Name: falchion_01_LOD0
   m_TagString: Untagged
@@ -500,9 +500,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 494072}
+  - component: {fileID: 494072}
   m_Layer: 0
   m_Name: BarbarianRDigit41
   m_TagString: Untagged
@@ -515,9 +515,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 451956}
+  - component: {fileID: 451956}
   m_Layer: 0
   m_Name: BarbarianLDigit51
   m_TagString: Untagged
@@ -530,9 +530,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 429520}
+  - component: {fileID: 429520}
   m_Layer: 0
   m_Name: BarbarianLFoot
   m_TagString: Untagged
@@ -545,9 +545,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 477166}
+  - component: {fileID: 477166}
   m_Layer: 0
   m_Name: BarbarianRPalm
   m_TagString: Untagged
@@ -560,11 +560,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 450272}
-  - 33: {fileID: 3394592}
-  - 23: {fileID: 2320948}
+  - component: {fileID: 450272}
+  - component: {fileID: 3394592}
+  - component: {fileID: 2320948}
   m_Layer: 0
   m_Name: barbarian_arm plate_01_R_LOD1
   m_TagString: Untagged
@@ -577,10 +577,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 464894}
-  - 137: {fileID: 13736836}
+  - component: {fileID: 464894}
+  - component: {fileID: 13736836}
   m_Layer: 0
   m_Name: barbarian_boot_02_LOD1
   m_TagString: Untagged
@@ -593,9 +593,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 440650}
+  - component: {fileID: 440650}
   m_Layer: 0
   m_Name: BarbarianRibcage
   m_TagString: Untagged
@@ -608,9 +608,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 499112}
+  - component: {fileID: 499112}
   m_Layer: 0
   m_Name: BarbarianRDigit52
   m_TagString: Untagged
@@ -623,11 +623,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 461192}
-  - 33: {fileID: 3350926}
-  - 23: {fileID: 2326190}
+  - component: {fileID: 461192}
+  - component: {fileID: 3350926}
+  - component: {fileID: 2326190}
   m_Layer: 0
   m_Name: barbarian_arm_plate_01_R_LOD0
   m_TagString: Untagged
@@ -640,9 +640,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 441744}
+  - component: {fileID: 441744}
   m_Layer: 0
   m_Name: BarbarianSpine2
   m_TagString: Untagged
@@ -655,9 +655,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 404934}
+  - component: {fileID: 404934}
   m_Layer: 0
   m_Name: BarbarianLCollarbone
   m_TagString: Untagged
@@ -670,9 +670,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 470968}
+  - component: {fileID: 470968}
   m_Layer: 0
   m_Name: BarbarianSpine3
   m_TagString: Untagged
@@ -685,11 +685,11 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 443444}
-  - 95: {fileID: 9563544}
-  - 205: {fileID: 20563812}
+  - component: {fileID: 443444}
+  - component: {fileID: 9563544}
+  - component: {fileID: 20563812}
   m_Layer: 0
   m_Name: barbarians_13
   m_TagString: Untagged
@@ -702,9 +702,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 482446}
+  - component: {fileID: 482446}
   m_Layer: 0
   m_Name: BarbarianRThigh
   m_TagString: Untagged
@@ -717,9 +717,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 416342}
+  - component: {fileID: 416342}
   m_Layer: 0
   m_Name: BarbarianLDigit43
   m_TagString: Untagged
@@ -732,9 +732,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 463508}
+  - component: {fileID: 463508}
   m_Layer: 0
   m_Name: BarbarianLDigit52
   m_TagString: Untagged
@@ -747,9 +747,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 412692}
+  - component: {fileID: 412692}
   m_Layer: 0
   m_Name: Barbarian_weaponL
   m_TagString: Untagged
@@ -762,11 +762,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 487828}
-  - 33: {fileID: 3398080}
-  - 23: {fileID: 2391398}
+  - component: {fileID: 487828}
+  - component: {fileID: 3398080}
+  - component: {fileID: 2391398}
   m_Layer: 0
   m_Name: barbarian_shoulder pad_03_R_LOD1
   m_TagString: Untagged
@@ -779,9 +779,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 471904}
+  - component: {fileID: 471904}
   m_Layer: 0
   m_Name: BarbarianRDigit51
   m_TagString: Untagged
@@ -794,9 +794,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 482316}
+  - component: {fileID: 482316}
   m_Layer: 0
   m_Name: BarbarianLDigit33
   m_TagString: Untagged
@@ -809,9 +809,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 431230}
+  - component: {fileID: 431230}
   m_Layer: 0
   m_Name: BarbarianEye_L
   m_TagString: Untagged
@@ -824,10 +824,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 471464}
-  - 137: {fileID: 13792642}
+  - component: {fileID: 471464}
+  - component: {fileID: 13792642}
   m_Layer: 0
   m_Name: barbarian_boot_02_LOD0
   m_TagString: Untagged
@@ -840,11 +840,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 427914}
-  - 33: {fileID: 3326830}
-  - 23: {fileID: 2343910}
+  - component: {fileID: 427914}
+  - component: {fileID: 3326830}
+  - component: {fileID: 2343910}
   m_Layer: 0
   m_Name: barbarian_helmet_04_LOD1
   m_TagString: Untagged
@@ -857,9 +857,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 486052}
+  - component: {fileID: 486052}
   m_Layer: 0
   m_Name: BarbarianLDigit21
   m_TagString: Untagged
@@ -872,9 +872,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 418330}
+  - component: {fileID: 418330}
   m_Layer: 0
   m_Name: BarbarianRDigit11
   m_TagString: Untagged
@@ -887,9 +887,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 489498}
+  - component: {fileID: 489498}
   m_Layer: 0
   m_Name: BarbarianRCollarbone
   m_TagString: Untagged
@@ -902,9 +902,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 415190}
+  - component: {fileID: 415190}
   m_Layer: 0
   m_Name: BarbarianRDigit53
   m_TagString: Untagged
@@ -917,9 +917,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 441286}
+  - component: {fileID: 441286}
   m_Layer: 0
   m_Name: BarbarianEye_R
   m_TagString: Untagged
@@ -932,9 +932,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 444464}
+  - component: {fileID: 444464}
   m_Layer: 0
   m_Name: BarbarianRDigit32
   m_TagString: Untagged
@@ -947,11 +947,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 478430}
-  - 33: {fileID: 3359772}
-  - 23: {fileID: 2339142}
+  - component: {fileID: 478430}
+  - component: {fileID: 3359772}
+  - component: {fileID: 2339142}
   m_Layer: 0
   m_Name: barbarian_helmet_04_LOD0
   m_TagString: Untagged
@@ -964,9 +964,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 496084}
+  - component: {fileID: 496084}
   m_Layer: 0
   m_Name: BarbarianLDigit11
   m_TagString: Untagged
@@ -979,10 +979,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 448818}
-  - 137: {fileID: 13720974}
+  - component: {fileID: 448818}
+  - component: {fileID: 13720974}
   m_Layer: 0
   m_Name: barbarian_LOD1
   m_TagString: Untagged
@@ -995,9 +995,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 431108}
+  - component: {fileID: 431108}
   m_Layer: 0
   m_Name: BarbarianHead
   m_TagString: Untagged
@@ -1010,9 +1010,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 402436}
+  - component: {fileID: 402436}
   m_Layer: 0
   m_Name: BarbarianRDigit31
   m_TagString: Untagged
@@ -1025,9 +1025,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 442512}
+  - component: {fileID: 442512}
   m_Layer: 0
   m_Name: BarbarianLDigit53
   m_TagString: Untagged
@@ -1040,9 +1040,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 473506}
+  - component: {fileID: 473506}
   m_Layer: 0
   m_Name: BarbarianPelvis
   m_TagString: Untagged
@@ -1055,9 +1055,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 447924}
+  - component: {fileID: 447924}
   m_Layer: 0
   m_Name: Barbariancloth_front
   m_TagString: Untagged
@@ -1070,9 +1070,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 428046}
+  - component: {fileID: 428046}
   m_Layer: 0
   m_Name: BarbarianLDigit22
   m_TagString: Untagged
@@ -1085,9 +1085,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 495288}
+  - component: {fileID: 495288}
   m_Layer: 0
   m_Name: BarbarianLDigit12
   m_TagString: Untagged
@@ -1100,9 +1100,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 495706}
+  - component: {fileID: 495706}
   m_Layer: 0
   m_Name: BarbarianLDigit31
   m_TagString: Untagged
@@ -1115,9 +1115,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 421044}
+  - component: {fileID: 421044}
   m_Layer: 0
   m_Name: BarbarianRDigit22
   m_TagString: Untagged
@@ -1130,9 +1130,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 429966}
+  - component: {fileID: 429966}
   m_Layer: 0
   m_Name: BarbarianLThigh
   m_TagString: Untagged
@@ -1145,10 +1145,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 452066}
-  - 137: {fileID: 13760478}
+  - component: {fileID: 452066}
+  - component: {fileID: 13760478}
   m_Layer: 0
   m_Name: barbarian_LOD0
   m_TagString: Untagged
@@ -1161,11 +1161,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 484712}
-  - 33: {fileID: 3369850}
-  - 23: {fileID: 2350372}
+  - component: {fileID: 484712}
+  - component: {fileID: 3369850}
+  - component: {fileID: 2350372}
   m_Layer: 0
   m_Name: shield_02_LOD0
   m_TagString: Untagged
@@ -1178,9 +1178,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 400012}
+  - component: {fileID: 400012}
   m_Layer: 0
   m_Name: BarbarianLDigit42
   m_TagString: Untagged
@@ -1193,9 +1193,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 405710}
+  - component: {fileID: 405710}
   m_Layer: 0
   m_Name: BarbarianLtoe1
   m_TagString: Untagged
@@ -1208,11 +1208,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 487588}
-  - 33: {fileID: 3381058}
-  - 23: {fileID: 2379330}
+  - component: {fileID: 487588}
+  - component: {fileID: 3381058}
+  - component: {fileID: 2379330}
   m_Layer: 0
   m_Name: barbarian_shoulder_pad_03_R_LOD0
   m_TagString: Untagged
@@ -1225,9 +1225,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 477214}
+  - component: {fileID: 477214}
   m_Layer: 0
   m_Name: BarbarianRUpperarm
   m_TagString: Untagged
@@ -1240,10 +1240,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 421042}
-  - 137: {fileID: 13731936}
+  - component: {fileID: 421042}
+  - component: {fileID: 13731936}
   m_Layer: 0
   m_Name: barbarian_cloth_03_LOD0
   m_TagString: Untagged
@@ -1264,6 +1264,7 @@ Transform:
   - {fileID: 416342}
   m_Father: {fileID: 483172}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &402436
 Transform:
   m_ObjectHideFlags: 1
@@ -1277,6 +1278,7 @@ Transform:
   - {fileID: 444464}
   m_Father: {fileID: 477166}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &402794
 Transform:
   m_ObjectHideFlags: 1
@@ -1289,6 +1291,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 466064}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &403350
 Transform:
   m_ObjectHideFlags: 1
@@ -1301,6 +1304,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 412692}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &404934
 Transform:
   m_ObjectHideFlags: 1
@@ -1314,6 +1318,7 @@ Transform:
   - {fileID: 452314}
   m_Father: {fileID: 440650}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &405568
 Transform:
   m_ObjectHideFlags: 1
@@ -1326,6 +1331,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 474636}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &405710
 Transform:
   m_ObjectHideFlags: 1
@@ -1338,6 +1344,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 429520}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &409696
 Transform:
   m_ObjectHideFlags: 1
@@ -1353,6 +1360,7 @@ Transform:
   - {fileID: 477166}
   m_Father: {fileID: 477214}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &410514
 Transform:
   m_ObjectHideFlags: 1
@@ -1365,6 +1373,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 473506}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &412692
 Transform:
   m_ObjectHideFlags: 1
@@ -1379,6 +1388,7 @@ Transform:
   - {fileID: 403350}
   m_Father: {fileID: 436622}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &415190
 Transform:
   m_ObjectHideFlags: 1
@@ -1391,6 +1401,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 499112}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &416342
 Transform:
   m_ObjectHideFlags: 1
@@ -1403,6 +1414,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 400012}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &418330
 Transform:
   m_ObjectHideFlags: 1
@@ -1416,6 +1428,7 @@ Transform:
   - {fileID: 487876}
   m_Father: {fileID: 477166}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &418388
 Transform:
   m_ObjectHideFlags: 1
@@ -1428,6 +1441,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 485216}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &421042
 Transform:
   m_ObjectHideFlags: 1
@@ -1440,6 +1454,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 443444}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &421044
 Transform:
   m_ObjectHideFlags: 1
@@ -1453,6 +1468,7 @@ Transform:
   - {fileID: 443260}
   m_Father: {fileID: 460068}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &423710
 Transform:
   m_ObjectHideFlags: 1
@@ -1465,6 +1481,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 483018}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &424736
 Transform:
   m_ObjectHideFlags: 1
@@ -1477,6 +1494,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 444464}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &427914
 Transform:
   m_ObjectHideFlags: 1
@@ -1489,6 +1507,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 431108}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &428046
 Transform:
   m_ObjectHideFlags: 1
@@ -1502,6 +1521,7 @@ Transform:
   - {fileID: 480380}
   m_Father: {fileID: 486052}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &429520
 Transform:
   m_ObjectHideFlags: 1
@@ -1515,6 +1535,7 @@ Transform:
   - {fileID: 405710}
   m_Father: {fileID: 435864}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &429966
 Transform:
   m_ObjectHideFlags: 1
@@ -1528,6 +1549,7 @@ Transform:
   - {fileID: 435864}
   m_Father: {fileID: 473506}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &431108
 Transform:
   m_ObjectHideFlags: 1
@@ -1545,6 +1567,7 @@ Transform:
   - {fileID: 432694}
   m_Father: {fileID: 496582}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &431230
 Transform:
   m_ObjectHideFlags: 1
@@ -1557,6 +1580,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 431108}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &432694
 Transform:
   m_ObjectHideFlags: 1
@@ -1569,6 +1593,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 431108}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &435864
 Transform:
   m_ObjectHideFlags: 1
@@ -1582,6 +1607,7 @@ Transform:
   - {fileID: 429520}
   m_Father: {fileID: 429966}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &436622
 Transform:
   m_ObjectHideFlags: 1
@@ -1600,6 +1626,7 @@ Transform:
   - {fileID: 451956}
   m_Father: {fileID: 483018}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &440650
 Transform:
   m_ObjectHideFlags: 1
@@ -1615,6 +1642,7 @@ Transform:
   - {fileID: 489498}
   m_Father: {fileID: 470968}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &441286
 Transform:
   m_ObjectHideFlags: 1
@@ -1627,6 +1655,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 431108}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &441744
 Transform:
   m_ObjectHideFlags: 1
@@ -1640,6 +1669,7 @@ Transform:
   - {fileID: 470968}
   m_Father: {fileID: 498410}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &442512
 Transform:
   m_ObjectHideFlags: 1
@@ -1652,6 +1682,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 463508}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &443260
 Transform:
   m_ObjectHideFlags: 1
@@ -1665,6 +1696,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 421044}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &443444
 Transform:
   m_ObjectHideFlags: 1
@@ -1684,6 +1716,7 @@ Transform:
   - {fileID: 473506}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &444464
 Transform:
   m_ObjectHideFlags: 1
@@ -1697,6 +1730,7 @@ Transform:
   - {fileID: 424736}
   m_Father: {fileID: 402436}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &445840
 Transform:
   m_ObjectHideFlags: 1
@@ -1709,6 +1743,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 443444}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &447924
 Transform:
   m_ObjectHideFlags: 1
@@ -1721,6 +1756,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 473506}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &448818
 Transform:
   m_ObjectHideFlags: 1
@@ -1733,6 +1769,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 443444}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &450272
 Transform:
   m_ObjectHideFlags: 1
@@ -1745,6 +1782,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 409696}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &451956
 Transform:
   m_ObjectHideFlags: 1
@@ -1758,6 +1796,7 @@ Transform:
   - {fileID: 463508}
   m_Father: {fileID: 436622}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &452066
 Transform:
   m_ObjectHideFlags: 1
@@ -1770,6 +1809,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 443444}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &452314
 Transform:
   m_ObjectHideFlags: 1
@@ -1785,6 +1825,7 @@ Transform:
   - {fileID: 483018}
   m_Father: {fileID: 404934}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &458718
 Transform:
   m_ObjectHideFlags: 1
@@ -1797,6 +1838,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 452314}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &460068
 Transform:
   m_ObjectHideFlags: 1
@@ -1810,6 +1852,7 @@ Transform:
   - {fileID: 421044}
   m_Father: {fileID: 477166}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &461192
 Transform:
   m_ObjectHideFlags: 1
@@ -1822,6 +1865,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 409696}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &463508
 Transform:
   m_ObjectHideFlags: 1
@@ -1835,6 +1879,7 @@ Transform:
   - {fileID: 442512}
   m_Father: {fileID: 451956}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &464894
 Transform:
   m_ObjectHideFlags: 1
@@ -1847,6 +1892,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 443444}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &466064
 Transform:
   m_ObjectHideFlags: 1
@@ -1860,6 +1906,7 @@ Transform:
   - {fileID: 402794}
   m_Father: {fileID: 494072}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &470422
 Transform:
   m_ObjectHideFlags: 1
@@ -1872,6 +1919,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 474636}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &470968
 Transform:
   m_ObjectHideFlags: 1
@@ -1886,6 +1934,7 @@ Transform:
   - {fileID: 440650}
   m_Father: {fileID: 441744}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &471464
 Transform:
   m_ObjectHideFlags: 1
@@ -1898,6 +1947,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 443444}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &471526
 Transform:
   m_ObjectHideFlags: 1
@@ -1910,6 +1960,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 487876}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &471904
 Transform:
   m_ObjectHideFlags: 1
@@ -1923,6 +1974,7 @@ Transform:
   - {fileID: 499112}
   m_Father: {fileID: 477166}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &473506
 Transform:
   m_ObjectHideFlags: 1
@@ -1940,6 +1992,7 @@ Transform:
   - {fileID: 498410}
   m_Father: {fileID: 443444}
   m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &474398
 Transform:
   m_ObjectHideFlags: 1
@@ -1952,6 +2005,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 483018}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &474636
 Transform:
   m_ObjectHideFlags: 1
@@ -1966,6 +2020,7 @@ Transform:
   - {fileID: 470422}
   m_Father: {fileID: 477166}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &477166
 Transform:
   m_ObjectHideFlags: 1
@@ -1984,6 +2039,7 @@ Transform:
   - {fileID: 471904}
   m_Father: {fileID: 409696}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &477214
 Transform:
   m_ObjectHideFlags: 1
@@ -1999,6 +2055,7 @@ Transform:
   - {fileID: 409696}
   m_Father: {fileID: 489498}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &478430
 Transform:
   m_ObjectHideFlags: 1
@@ -2011,6 +2068,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 431108}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &480380
 Transform:
   m_ObjectHideFlags: 1
@@ -2024,6 +2082,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 428046}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &482316
 Transform:
   m_ObjectHideFlags: 1
@@ -2036,6 +2095,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 497908}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &482326
 Transform:
   m_ObjectHideFlags: 1
@@ -2048,6 +2108,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 452314}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &482446
 Transform:
   m_ObjectHideFlags: 1
@@ -2061,6 +2122,7 @@ Transform:
   - {fileID: 491516}
   m_Father: {fileID: 473506}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &483018
 Transform:
   m_ObjectHideFlags: 1
@@ -2076,6 +2138,7 @@ Transform:
   - {fileID: 436622}
   m_Father: {fileID: 452314}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &483172
 Transform:
   m_ObjectHideFlags: 1
@@ -2089,6 +2152,7 @@ Transform:
   - {fileID: 400012}
   m_Father: {fileID: 436622}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &484234
 Transform:
   m_ObjectHideFlags: 1
@@ -2101,6 +2165,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 495288}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &484712
 Transform:
   m_ObjectHideFlags: 1
@@ -2113,6 +2178,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 412692}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &485216
 Transform:
   m_ObjectHideFlags: 1
@@ -2126,6 +2192,7 @@ Transform:
   - {fileID: 418388}
   m_Father: {fileID: 491516}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &486052
 Transform:
   m_ObjectHideFlags: 1
@@ -2139,6 +2206,7 @@ Transform:
   - {fileID: 428046}
   m_Father: {fileID: 436622}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &487588
 Transform:
   m_ObjectHideFlags: 1
@@ -2151,6 +2219,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 477214}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &487828
 Transform:
   m_ObjectHideFlags: 1
@@ -2163,6 +2232,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 477214}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &487876
 Transform:
   m_ObjectHideFlags: 1
@@ -2176,6 +2246,7 @@ Transform:
   - {fileID: 471526}
   m_Father: {fileID: 418330}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &489498
 Transform:
   m_ObjectHideFlags: 1
@@ -2189,6 +2260,7 @@ Transform:
   - {fileID: 477214}
   m_Father: {fileID: 440650}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &491516
 Transform:
   m_ObjectHideFlags: 1
@@ -2202,6 +2274,7 @@ Transform:
   - {fileID: 485216}
   m_Father: {fileID: 482446}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &494072
 Transform:
   m_ObjectHideFlags: 1
@@ -2215,6 +2288,7 @@ Transform:
   - {fileID: 466064}
   m_Father: {fileID: 477166}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &495288
 Transform:
   m_ObjectHideFlags: 1
@@ -2228,6 +2302,7 @@ Transform:
   - {fileID: 484234}
   m_Father: {fileID: 496084}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &495706
 Transform:
   m_ObjectHideFlags: 1
@@ -2241,6 +2316,7 @@ Transform:
   - {fileID: 497908}
   m_Father: {fileID: 436622}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &496084
 Transform:
   m_ObjectHideFlags: 1
@@ -2254,6 +2330,7 @@ Transform:
   - {fileID: 495288}
   m_Father: {fileID: 436622}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &496582
 Transform:
   m_ObjectHideFlags: 1
@@ -2267,6 +2344,7 @@ Transform:
   - {fileID: 431108}
   m_Father: {fileID: 440650}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &497908
 Transform:
   m_ObjectHideFlags: 1
@@ -2280,6 +2358,7 @@ Transform:
   - {fileID: 482316}
   m_Father: {fileID: 495706}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &498410
 Transform:
   m_ObjectHideFlags: 1
@@ -2293,6 +2372,7 @@ Transform:
   - {fileID: 441744}
   m_Father: {fileID: 473506}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &499112
 Transform:
   m_ObjectHideFlags: 1
@@ -2306,6 +2386,7 @@ Transform:
   - {fileID: 415190}
   m_Father: {fileID: 471904}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2307518
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -2315,22 +2396,30 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &2312450
 MeshRenderer:
@@ -2341,22 +2430,30 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &2320726
 MeshRenderer:
@@ -2367,22 +2464,30 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &2320948
 MeshRenderer:
@@ -2393,22 +2498,30 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &2326190
 MeshRenderer:
@@ -2419,22 +2532,30 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &2339142
 MeshRenderer:
@@ -2445,22 +2566,30 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &2341184
 MeshRenderer:
@@ -2471,22 +2600,30 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &2343910
 MeshRenderer:
@@ -2497,22 +2634,30 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &2350372
 MeshRenderer:
@@ -2523,22 +2668,30 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 764508d8769e5f04c802d229b2754303, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &2363966
 MeshRenderer:
@@ -2549,22 +2702,30 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 0c7de8252301a4941bb7f6e81a17e1d6, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &2379330
 MeshRenderer:
@@ -2575,22 +2736,30 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &2388460
 MeshRenderer:
@@ -2601,22 +2770,30 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 0c7de8252301a4941bb7f6e81a17e1d6, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &2391398
 MeshRenderer:
@@ -2627,22 +2804,30 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &2397630
 MeshRenderer:
@@ -2653,22 +2838,30 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 764508d8769e5f04c802d229b2754303, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!33 &3301420
 MeshFilter:
@@ -2794,26 +2987,35 @@ SkinnedMeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 4300280, guid: 8b0cbfe1516f0354592374482e3a33b3, type: 3}
   m_Bones:
   - {fileID: 473506}
@@ -2889,26 +3091,35 @@ SkinnedMeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 4300180, guid: 8b0cbfe1516f0354592374482e3a33b3, type: 3}
   m_Bones:
   - {fileID: 473506}
@@ -2934,26 +3145,35 @@ SkinnedMeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 4300278, guid: 8b0cbfe1516f0354592374482e3a33b3, type: 3}
   m_Bones:
   - {fileID: 473506}
@@ -2979,26 +3199,35 @@ SkinnedMeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 4300178, guid: 8b0cbfe1516f0354592374482e3a33b3, type: 3}
   m_Bones:
   - {fileID: 435864}
@@ -3024,26 +3253,35 @@ SkinnedMeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 4300282, guid: 8b0cbfe1516f0354592374482e3a33b3, type: 3}
   m_Bones:
   - {fileID: 473506}
@@ -3126,26 +3364,35 @@ SkinnedMeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3ea81558f28f62e40b43b8e56242e763, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 4300276, guid: 8b0cbfe1516f0354592374482e3a33b3, type: 3}
   m_Bones:
   - {fileID: 491516}
@@ -3177,99 +3424,29 @@ LODGroup:
   - screenRelativeHeight: 0.25
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
     - renderer: {fileID: 13792642}
     - renderer: {fileID: 13731936}
     - renderer: {fileID: 13760478}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
     - renderer: {fileID: 2350372}
-    - renderer: {fileID: 0}
     - renderer: {fileID: 2320726}
     - renderer: {fileID: 2307518}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
     - renderer: {fileID: 2363966}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
     - renderer: {fileID: 2326190}
-    - renderer: {fileID: 0}
     - renderer: {fileID: 2379330}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
     - renderer: {fileID: 2339142}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
   - screenRelativeHeight: 0.01
     fadeTransitionWidth: 0
     renderers:
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
     - renderer: {fileID: 13736836}
     - renderer: {fileID: 13723134}
     - renderer: {fileID: 13720974}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
     - renderer: {fileID: 2397630}
     - renderer: {fileID: 2312450}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
     - renderer: {fileID: 2341184}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
     - renderer: {fileID: 2388460}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
     - renderer: {fileID: 2320948}
-    - renderer: {fileID: 0}
     - renderer: {fileID: 2391398}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
     - renderer: {fileID: 2343910}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
-    - renderer: {fileID: 0}
   m_Enabled: 1
 --- !u!1001 &100100000
 Prefab:
