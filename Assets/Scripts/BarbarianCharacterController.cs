@@ -22,13 +22,13 @@ namespace Assets.Scripts
         private Vector3 moveDirection = Vector3.zero;
 
         // Use this for initialization
-        void Start ()
+        private void Start ()
         {
             this.animator = GetComponent<Animator>() as Animator;
         }
 	
         // Update is called once per frame
-        void Update ()
+        private void Update ()
         {
             if (dead)
             {
@@ -98,7 +98,7 @@ namespace Assets.Scripts
 
         }
 
-        void FixedUpdate()
+        private void FixedUpdate()
         {
             // The Inputs are defined in the Input Manager
             // get value for horizontal axis
