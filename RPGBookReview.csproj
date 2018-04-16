@@ -291,6 +291,7 @@
     <Compile Include="Assets\com\heparo\terrain\toolkit\scripts\TerrainToolkit.cs" />
     <Compile Include="Assets\Medieval Environment\Shaders\TerrainRand.cs" />
     <Compile Include="Assets\Scripts\BarbarianCharacterController.cs" />
+    <Compile Include="Assets\Scripts\BarbarianCharacterCustomization.cs" />
     <Compile Include="Assets\Scripts\BaseCharacter.cs" />
     <Compile Include="Assets\Scripts\GameMaster.cs" />
   </ItemGroup>

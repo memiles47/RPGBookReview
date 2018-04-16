@@ -426,6 +426,10 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8fabb40810f8d5f4c99b29e76c0bfb74, type: 2}
+      propertyPath: m_Name
+      value: Base
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fabb40810f8d5f4c99b29e76c0bfb74, type: 2}
   m_IsPrefabParent: 0
@@ -897,6 +901,100 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: f4ca1cfc6b374704ca3b1caba3037355, type: 2}
   m_PrefabInternal: {fileID: 1897757353}
+--- !u!1 &1900617028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1900617030}
+  - component: {fileID: 1900617029}
+  m_Layer: 0
+  m_Name: _Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1900617029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900617028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71d4bd079a7ac114c89742439dad682c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PLAYER_CHARACTER: {fileID: 0}
+  PLAYER_SKIN: []
+  CLOTH_01LOD0: {fileID: 0}
+  CLOTH_01LOD0_SKIN: {fileID: 0}
+  CLOTH_02LOD0: {fileID: 0}
+  CLOTH_02LOD0_SKIN: {fileID: 0}
+  CLOTH_03LOD0: {fileID: 0}
+  CLOTH_03LOD0_SKIN: {fileID: 0}
+  CLOTH_03LOD0_FAT: {fileID: 0}
+  BELT_LOD0: {fileID: 0}
+  SKN_LOD0: {fileID: 0}
+  HAIR_LOD0: {fileID: 0}
+  BOW_LOD0: {fileID: 0}
+  GLADIATOR_01LOD0: {fileID: 0}
+  HELMET_01LOD0: {fileID: 0}
+  HELMET_02LOD0: {fileID: 0}
+  HELMET_03LOD0: {fileID: 0}
+  HELMET_04LOD0: {fileID: 0}
+  SHOULDER_PAD_R_01LOD0: {fileID: 0}
+  SHOULDER_PAD_R_02LOD0: {fileID: 0}
+  SHOULDER_PAD_R_03LOD0: {fileID: 0}
+  SHOULDER_PAD_R_04LOD0: {fileID: 0}
+  SHOULDER_PAD_L_01LOD0: {fileID: 0}
+  SHOULDER_PAD_L_02LOD0: {fileID: 0}
+  SHOULDER_PAD_L_03LOD0: {fileID: 0}
+  SHOULDER_PAD_L_04LOD0: {fileID: 0}
+  ARM_PLATE_R_1LOD0: {fileID: 0}
+  ARM_PLATE_R_2LOD0: {fileID: 0}
+  ARM_PLATE_L_1LOD0: {fileID: 0}
+  ARM_PLATE_L_2LOD0: {fileID: 0}
+  AXE_01LOD0: {fileID: 0}
+  AXE_02LOD0: {fileID: 0}
+  CLUB_01LOD0: {fileID: 0}
+  CLUB_02LOD0: {fileID: 0}
+  FALCHION_LOD0: {fileID: 0}
+  GLADIUS_LOD0: {fileID: 0}
+  MACE_LOD0: {fileID: 0}
+  MAUL_LOD0: {fileID: 0}
+  SCIMITAR_LOD0: {fileID: 0}
+  SPEAR_LOD0: {fileID: 0}
+  SWORD_BASTARD_LOD0: {fileID: 0}
+  SWORD_BOARD_01LOD0: {fileID: 0}
+  SWORD_SHORT_LOD0: {fileID: 0}
+  SHIELD_01LOD0: {fileID: 0}
+  SHIELD_02LOD0: {fileID: 0}
+  QUIVER_LOD0: {fileID: 0}
+  BOW_01_LOD0: {fileID: 0}
+  KNEE_PAD_R_LOD0: {fileID: 0}
+  LEG_PLATE_R_LOD0: {fileID: 0}
+  KNEE_PAD_L_LOD0: {fileID: 0}
+  LEG_PLATE_L_LOD0: {fileID: 0}
+  BOOT_01LOD0: {fileID: 0}
+  BOOT_02LOD0: {fileID: 0}
+  RotateModel: 0
+--- !u!4 &1900617030
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1900617028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1963923925
 GameObject:
   m_ObjectHideFlags: 0
