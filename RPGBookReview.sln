@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGBookReview", "RPGBookReview.csproj", "{08CB54B0-DF0E-33F4-BA01-BD486FD0DB72}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGBookReview.Plugins", "RPGBookReview.Plugins.csproj", "{EC3C5979-C5D7-BFB3-2D5F-040F6DB889EF}"
