@@ -189,5 +189,305 @@ namespace Assets.Scripts
             LEG_PLATE_R_LOD0.SetActive(id.isOn);
             LEG_PLATE_L_LOD0.SetActive(id.isOn);
         }
+
+        public void SetWeaponType(Slider id)
+        {
+            switch (System.Convert.ToInt32(id.value))
+            {
+                case 0:
+                {
+                    AXE_01LOD0.SetActive(false);
+                    AXE_02LOD0.SetActive(false);
+                    CLUB_01LOD0.SetActive(false);
+                    CLUB_02LOD0.SetActive(false);
+                    FALCHION_LOD0.SetActive(false);
+                    GLADIUS_LOD0.SetActive(false);
+                    MACE_LOD0.SetActive(false);
+                    MAUL_LOD0.SetActive(false);
+                    SCIMITAR_LOD0.SetActive(false);
+                    SPEAR_LOD0.SetActive(false);
+                    SWORD_BASTARD_LOD0.SetActive(false);
+                    SWORD_BOARD_01LOD0.SetActive(false);
+                    SWORD_SHORT_LOD0.SetActive(false);
+                    break;
+                }
+
+                case 1:
+                {
+                    AXE_01LOD0.SetActive(true);
+                    AXE_02LOD0.SetActive(false);
+                    CLUB_01LOD0.SetActive(false);
+                    CLUB_02LOD0.SetActive(false);
+                    FALCHION_LOD0.SetActive(false);
+                    GLADIUS_LOD0.SetActive(false);
+                    MACE_LOD0.SetActive(false);
+                    MAUL_LOD0.SetActive(false);
+                    SCIMITAR_LOD0.SetActive(false);
+                    SPEAR_LOD0.SetActive(false);
+                    SWORD_BASTARD_LOD0.SetActive(false);
+                    SWORD_BOARD_01LOD0.SetActive(false);
+                    SWORD_SHORT_LOD0.SetActive(false);
+                    break;
+                }
+
+                case 2:
+                {
+                    AXE_01LOD0.SetActive(false);
+                    AXE_02LOD0.SetActive(true);
+                    CLUB_01LOD0.SetActive(false);
+                    CLUB_02LOD0.SetActive(false);
+                    FALCHION_LOD0.SetActive(false);
+                    GLADIUS_LOD0.SetActive(false);
+                    MACE_LOD0.SetActive(false);
+                    MAUL_LOD0.SetActive(false);
+                    SCIMITAR_LOD0.SetActive(false);
+                    SPEAR_LOD0.SetActive(false);
+                    SWORD_BASTARD_LOD0.SetActive(false);
+                    SWORD_BOARD_01LOD0.SetActive(false);
+                    SWORD_SHORT_LOD0.SetActive(false);
+                    break;
+                }
+
+                case 3:
+                {
+                    AXE_01LOD0.SetActive(false);
+                    AXE_02LOD0.SetActive(false);
+                    CLUB_01LOD0.SetActive(true);
+                    CLUB_02LOD0.SetActive(false);
+                    FALCHION_LOD0.SetActive(false);
+                    GLADIUS_LOD0.SetActive(false);
+                    MACE_LOD0.SetActive(false);
+                    MAUL_LOD0.SetActive(false);
+                    SCIMITAR_LOD0.SetActive(false);
+                    SPEAR_LOD0.SetActive(false);
+                    SWORD_BASTARD_LOD0.SetActive(false);
+                    SWORD_BOARD_01LOD0.SetActive(false);
+                    SWORD_SHORT_LOD0.SetActive(false);
+                    break;
+                }
+
+                case 4:
+                {
+                    AXE_01LOD0.SetActive(false);
+                    AXE_02LOD0.SetActive(false);
+                    CLUB_01LOD0.SetActive(false);
+                    CLUB_02LOD0.SetActive(true);
+                    FALCHION_LOD0.SetActive(false);
+                    GLADIUS_LOD0.SetActive(false);
+                    MACE_LOD0.SetActive(false);
+                    MAUL_LOD0.SetActive(false);
+                    SCIMITAR_LOD0.SetActive(false);
+                    SPEAR_LOD0.SetActive(false);
+                    SWORD_BASTARD_LOD0.SetActive(false);
+                    SWORD_BOARD_01LOD0.SetActive(false);
+                    SWORD_SHORT_LOD0.SetActive(false);
+                    break;
+                }
+
+                case 5:
+                {
+                    AXE_01LOD0.SetActive(false);
+                    AXE_02LOD0.SetActive(false);
+                    CLUB_01LOD0.SetActive(false);
+                    CLUB_02LOD0.SetActive(false);
+                    FALCHION_LOD0.SetActive(true);
+                    GLADIUS_LOD0.SetActive(false);
+                    MACE_LOD0.SetActive(false);
+                    MAUL_LOD0.SetActive(false);
+                    SCIMITAR_LOD0.SetActive(false);
+                    SPEAR_LOD0.SetActive(false);
+                    SWORD_BASTARD_LOD0.SetActive(false);
+                    SWORD_BOARD_01LOD0.SetActive(false);
+                    SWORD_SHORT_LOD0.SetActive(false);
+                    break;
+                }
+
+                case 6:
+                {
+                    AXE_01LOD0.SetActive(false);
+                    AXE_02LOD0.SetActive(false);
+                    CLUB_01LOD0.SetActive(false);
+                    CLUB_02LOD0.SetActive(false);
+                    FALCHION_LOD0.SetActive(false);
+                    GLADIUS_LOD0.SetActive(true);
+                    MACE_LOD0.SetActive(false);
+                    MAUL_LOD0.SetActive(false);
+                    SCIMITAR_LOD0.SetActive(false);
+                    SPEAR_LOD0.SetActive(false);
+                    SWORD_BASTARD_LOD0.SetActive(false);
+                    SWORD_BOARD_01LOD0.SetActive(false);
+                    SWORD_SHORT_LOD0.SetActive(false);
+                    break;
+                }
+
+                case 7:
+                {
+                    AXE_01LOD0.SetActive(false);
+                    AXE_02LOD0.SetActive(false);
+                    CLUB_01LOD0.SetActive(false);
+                    CLUB_02LOD0.SetActive(false);
+                    FALCHION_LOD0.SetActive(false);
+                    GLADIUS_LOD0.SetActive(false);
+                    MACE_LOD0.SetActive(true);
+                    MAUL_LOD0.SetActive(false);
+                    SCIMITAR_LOD0.SetActive(false);
+                    SPEAR_LOD0.SetActive(false);
+                    SWORD_BASTARD_LOD0.SetActive(false);
+                    SWORD_BOARD_01LOD0.SetActive(false);
+                    SWORD_SHORT_LOD0.SetActive(false);
+                    break;
+                }
+
+                case 8:
+                {
+                    AXE_01LOD0.SetActive(false);
+                    AXE_02LOD0.SetActive(false);
+                    CLUB_01LOD0.SetActive(false);
+                    CLUB_02LOD0.SetActive(false);
+                    FALCHION_LOD0.SetActive(false);
+                    GLADIUS_LOD0.SetActive(false);
+                    MACE_LOD0.SetActive(false);
+                    MAUL_LOD0.SetActive(true);
+                    SCIMITAR_LOD0.SetActive(false);
+                    SPEAR_LOD0.SetActive(false);
+                    SWORD_BASTARD_LOD0.SetActive(false);
+                    SWORD_BOARD_01LOD0.SetActive(false);
+                    SWORD_SHORT_LOD0.SetActive(false);
+                    break;
+                }
+
+                case 9:
+                {
+                    AXE_01LOD0.SetActive(false);
+                    AXE_02LOD0.SetActive(false);
+                    CLUB_01LOD0.SetActive(false);
+                    CLUB_02LOD0.SetActive(false);
+                    FALCHION_LOD0.SetActive(false);
+                    GLADIUS_LOD0.SetActive(false);
+                    MACE_LOD0.SetActive(false);
+                    MAUL_LOD0.SetActive(false);
+                    SCIMITAR_LOD0.SetActive(true);
+                    SPEAR_LOD0.SetActive(false);
+                    SWORD_BASTARD_LOD0.SetActive(false);
+                    SWORD_BOARD_01LOD0.SetActive(false);
+                    SWORD_SHORT_LOD0.SetActive(false);
+                    break;
+                }
+
+                case 10:
+                {
+                    AXE_01LOD0.SetActive(false);
+                    AXE_02LOD0.SetActive(false);
+                    CLUB_01LOD0.SetActive(false);
+                    CLUB_02LOD0.SetActive(false);
+                    FALCHION_LOD0.SetActive(false);
+                    GLADIUS_LOD0.SetActive(false);
+                    MACE_LOD0.SetActive(false);
+                    MAUL_LOD0.SetActive(false);
+                    SCIMITAR_LOD0.SetActive(false);
+                    SPEAR_LOD0.SetActive(true);
+                    SWORD_BASTARD_LOD0.SetActive(false);
+                    SWORD_BOARD_01LOD0.SetActive(false);
+                    SWORD_SHORT_LOD0.SetActive(false);
+                    break;
+                }
+
+                case 11:
+                {
+                    AXE_01LOD0.SetActive(false);
+                    AXE_02LOD0.SetActive(false);
+                    CLUB_01LOD0.SetActive(false);
+                    CLUB_02LOD0.SetActive(false);
+                    FALCHION_LOD0.SetActive(false);
+                    GLADIUS_LOD0.SetActive(false);
+                    MACE_LOD0.SetActive(false);
+                    MAUL_LOD0.SetActive(false);
+                    SCIMITAR_LOD0.SetActive(false);
+                    SPEAR_LOD0.SetActive(false);
+                    SWORD_BASTARD_LOD0.SetActive(true);
+                    SWORD_BOARD_01LOD0.SetActive(false);
+                    SWORD_SHORT_LOD0.SetActive(false);
+                    break;
+                }
+
+                case 12:
+                {
+                    AXE_01LOD0.SetActive(false);
+                    AXE_02LOD0.SetActive(false);
+                    CLUB_01LOD0.SetActive(false);
+                    CLUB_02LOD0.SetActive(false);
+                    FALCHION_LOD0.SetActive(false);
+                    GLADIUS_LOD0.SetActive(false);
+                    MACE_LOD0.SetActive(false);
+                    MAUL_LOD0.SetActive(false);
+                    SCIMITAR_LOD0.SetActive(false);
+                    SPEAR_LOD0.SetActive(false);
+                    SWORD_BASTARD_LOD0.SetActive(false);
+                    SWORD_BOARD_01LOD0.SetActive(true);
+                    SWORD_SHORT_LOD0.SetActive(false);
+                    break;
+                }
+
+                case 13:
+                {
+                    AXE_01LOD0.SetActive(false);
+                    AXE_02LOD0.SetActive(false);
+                    CLUB_01LOD0.SetActive(false);
+                    CLUB_02LOD0.SetActive(false);
+                    FALCHION_LOD0.SetActive(false);
+                    GLADIUS_LOD0.SetActive(false);
+                    MACE_LOD0.SetActive(false);
+                    MAUL_LOD0.SetActive(false);
+                    SCIMITAR_LOD0.SetActive(false);
+                    SPEAR_LOD0.SetActive(false);
+                    SWORD_BASTARD_LOD0.SetActive(false);
+                    SWORD_BOARD_01LOD0.SetActive(false);
+                    SWORD_SHORT_LOD0.SetActive(true);
+                    break;
+                }
+            }
+        }
+
+        public void SetHelmetType(Toggle id)
+        {
+            switch (id.name)
+            {
+                case "HL01":
+                {
+                    HELMET_01LOD0.SetActive(id.isOn);
+                    HELMET_02LOD0.SetActive(false);
+                    HELMET_03LOD0.SetActive(false);
+                    HELMET_04LOD0.SetActive(false);
+                    break;
+                }
+
+                case "HL02":
+                {
+                    HELMET_01LOD0.SetActive(false);
+                    HELMET_02LOD0.SetActive(id.isOn);
+                    HELMET_03LOD0.SetActive(false);
+                    HELMET_04LOD0.SetActive(false);
+                    break;
+                }
+
+                case "HL03":
+                {
+                    HELMET_01LOD0.SetActive(false);
+                    HELMET_02LOD0.SetActive(false);
+                    HELMET_03LOD0.SetActive(id.isOn);
+                    HELMET_04LOD0.SetActive(false);
+                    break;
+                }
+
+                case "HL04":
+                {
+                    HELMET_01LOD0.SetActive(false);
+                    HELMET_02LOD0.SetActive(false);
+                    HELMET_03LOD0.SetActive(false);
+                    HELMET_04LOD0.SetActive(id.isOn);
+                    break;
+                }
+            }
+        }
     }
 }
