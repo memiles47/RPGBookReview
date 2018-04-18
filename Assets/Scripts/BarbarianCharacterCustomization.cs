@@ -489,5 +489,59 @@ namespace Assets.Scripts
                 }
             }
         }
+
+        public void SetShieldType(Toggle id)
+        {
+            switch (id.name)
+            {
+                case "SL01":
+                {
+                    SHIELD_01LOD0.SetActive(id.isOn);
+                    SHIELD_02LOD0.SetActive(false);
+                    break;
+                }
+                case "SL02":
+                {
+                    SHIELD_01LOD0.SetActive(false);
+                    SHIELD_02LOD0.SetActive(id.isOn);
+                    break;
+                }
+            }
+        }
+
+        public void SetSkinType(Slider id)
+        {
+            SKN_LOD0.GetComponent<Renderer>().material =
+                PLAYER_SKIN[System.Convert.ToInt32(id.value)];
+        }
+        public void SetBodyFat(Slider id)
+        {
+            SKN_LOD0.GetComponent<SkinnedMeshRenderer>().SetBlendShapeWeight(5,
+                id.value);
+        }
+        public void SetBodySkinny(Slider id)
+        {
+            SKN_LOD0.GetComponent<SkinnedMeshRenderer>().SetBlendShapeWeight(6,
+                id.value);
+        }
+
+        public void SetBootType(Toggle id)
+        {
+            switch (id.name)
+            {
+                case "BT01":
+                {
+                    BOOT_01LOD0.SetActive(id.isOn);
+                    BOOT_02LOD0.SetActive(false);
+                    break;
+                }
+                case "BT02":
+                {
+                    BOOT_01LOD0.SetActive(false);
+                    BOOT_02LOD0.SetActive(id.isOn);
+                    break;
+                }
+            }
+        }
     }
 }
