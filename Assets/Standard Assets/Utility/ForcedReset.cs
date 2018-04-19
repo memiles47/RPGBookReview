@@ -1,18 +1,20 @@
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 
-[RequireComponent(typeof (GUITexture))]
-public class ForcedReset : MonoBehaviour
+namespace Assets.Standard_Assets.Utility
 {
-    private void Update()
+    [RequireComponent(typeof (GUITexture))]
+    public class ForcedReset : MonoBehaviour
     {
-        // if we have forced a reset ...
-        if (CrossPlatformInputManager.GetButtonDown("ResetObject"))
+        private void Update()
         {
-            //... reload the scene
-            SceneManager.LoadScene(SceneManager.GetSceneAt(0).name);
+            // if we have forced a reset ...
+            if (CrossPlatformInputManager.GetButtonDown("ResetObject"))
+            {
+                //... reload the scene
+                SceneManager.LoadScene(SceneManager.GetSceneAt(0).name);
+            }
         }
     }
 }
