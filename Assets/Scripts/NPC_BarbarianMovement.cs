@@ -69,13 +69,13 @@ namespace Assets.Scripts
         }
 
         // Use this for initialization
-        void Start ()
+        private void Start ()
         {
 		
         }
-	
+
         // Update is called once per frame
-        void Update ()
+        private void Update ()
         {
             // if player is in sight let's slerp towards the player
             if (playerInSight)
@@ -85,7 +85,7 @@ namespace Assets.Scripts
         }
 
         // let's update our scene using fixed update
-        void FixedUpdate()
+        private void FixedUpdate()
         {
             h = angle; // assign horizontal axis
             v = distance; // assign vertical axis
@@ -99,6 +99,129 @@ namespace Assets.Scripts
             animator.SetFloat("Speed", speed);
             animator.SetFloat("AngularSpeed", v);
             animator.SetBool("Attack", attack);
+        }
+
+        // if the PC is in our collider, we want to examine the location
+        // of the player
+        // calculate the direction based on our position and the
+        // player's position
+        // use the DOT product to get the angle between the two vectors
+        // calculate the angle between the NPC forward vector and the PC
+        // if it falls within the field of view, we have the player in
+        // sight.
+        // if the player is in sight, we will set the nav agent destination
+        // if we are within a certain distance from the PC, the NPC has
+        // the ability to attack
+
+        private void OnTriggerStay(Collider other)
+        {
+            if (other.transform.tag.Equals("Player"))
+            {
+                // Create a vector from the enemy to the player and store
+                // the angle between it and forward.
+                direction = other.transform.position - transform.position;
+                distance = Vector3.Distance(other.transform.position, transform.position) -
+                           1.0f;
+                float DotResult = Vector3.Dot(transform.forward,
+                    player.transform.position);
+                angle = DotResult;
+                if (DEBUG_DRAW)
+                {
+                    Debug.DrawLine(transform.position + Vector3.up, direction * 50,
+                        Color.gray);
+                    Debug.DrawLine(other.transform.position, transform.position, Color.cyan);
+                }
+                playerInSight = false;
+                calculatedAngle = Vector3.Angle(direction, transform.forward);
+                if (calculatedAngle < fieldOfViewAngle * 0.5f)
+                {
+                    RaycastHit hit;
+                    if (DEBUG_DRAW)
+                        Debug.DrawRay(transform.position + transform.up, direction.normalized,
+                            Color.magenta);
+                    // ... and if a raycast towards the player hits something...
+                    if (Physics.Raycast(transform.position + transform.up,
+                        direction.normalized, out hit,
+                        col.radius))
+                    {
+                        // ... and if the raycast hits the player...
+                        if (hit.collider.gameObject == player)
+                        {
+                            // ... the player is in sight.
+                            playerInSight = true;
+                            if (DEBUG)
+                                Debug.Log("PlayerInSight: " + playerInSight);
+                        }
+                    }
+                }
+                if (playerInSight)
+                {
+                    nav.SetDestination(other.transform.position);
+                    CalculatePathLength(other.transform.position);
+                    if (distance < 1.1f)
+                    {
+                        attack = true;
+                    }
+                    else
+                    {
+                        attack = false;
+                    }
+                }
+            }
+        }
+
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.transform.tag.Equals("Player"))
+            {
+                distance = 0.0f;
+                angle = 0.0f;
+                attack = false;
+                playerInSight = false;
+            }
+        }
+
+        // this is a helper function at this point
+        // in the future we will use it to calculate distance around
+        // the corners
+        // it currently is also used to draw the path of the nav mesh
+        // agent in the
+        // editor
+        private float CalculatePathLength(Vector3 targetPosition)
+        {
+            // Create a path and set it based on a target position.
+            NavMeshPath path = new NavMeshPath();
+
+            if (nav.enabled)
+                nav.CalculatePath(targetPosition, path);
+
+            // Create an array of points which is the length of the number
+            // of corners in the path + 2.
+            Vector3[] allWayPoints = new Vector3[path.corners.Length + 2];
+
+            // The first point is the enemy's position.
+            allWayPoints[0] = transform.position;
+
+            // The last point is the target position.
+            allWayPoints[allWayPoints.Length - 1] = targetPosition;
+
+            // The points inbetween are the corners of the path.
+            for (int i = 0; i < path.corners.Length; i++)
+            {
+                allWayPoints[i + 1] = path.corners[i];
+            }
+            // Create a float to store the path length that is by default 0.
+            float pathLength = 0;
+
+            // Increment the path length by an amount equal to the
+            // distance between each waypoint and the next.
+            for (int i = 0; i < allWayPoints.Length - 1; i++)
+            {
+                pathLength += Vector3.Distance(allWayPoints[i], allWayPoints[i + 1]);
+                if (DEBUG_DRAW)
+                    Debug.DrawLine(allWayPoints[i], allWayPoints[i + 1], Color.red);
+            }
+            return pathLength;
         }
     }
 }
