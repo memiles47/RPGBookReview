@@ -80,7 +80,15 @@ namespace Assets.Scripts
             // if player is in sight let's slerp towards the player
             if (playerInSight)
             {
-                transform.rotation = Quaternion.Slerp(this.transform.rotation, Quaternion.LookRotation(direction), 0.1f);
+                this.transform.rotation =
+                    Quaternion.Slerp(this.transform.rotation,
+                        Quaternion.LookRotation(direction), 0.1f);
+            }
+            if(this.player.transform.GetComponent<CharacterController>().die)
+            {
+                animator.SetBool("Attack", false);
+                animator.SetFloat("Speed", 0.0f);
+                animator.SetFloat("AngularSpeed", 0.0f);
             }
         }
 
@@ -93,12 +101,20 @@ namespace Assets.Scripts
             // calculate speed based on distance and delta time
             speed = distance / Time.deltaTime;
             if (DEBUG)
-                Debug.Log(string.Format("H:{0} - V:{1} - Speed:{2}", h, v, speed));
-
+                Debug.Log(string.Format("H:{0} - V:{1} - Speed:{2}", h, v,
+                    speed));
             // set the parameters defined in the animator controller
             animator.SetFloat("Speed", speed);
             animator.SetFloat("AngularSpeed", v);
-            animator.SetBool("Attack", attack);
+            animator.SetBool("Attack", attack1);
+            animator.SetBool("Attack1", attack1);
+            if(playerInSight)
+            {
+                if (animator.GetFloat("Attack1C") == 1.0f)
+                {
+                    this.player.GetComponent<PlayerAgent>().playerCharacterData.HEALTH -= 1.0f;
+                }
+            }
         }
 
         // if the PC is in our collider, we want to examine the location
