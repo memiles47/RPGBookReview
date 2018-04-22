@@ -81,8 +81,7 @@ namespace Assets.Scripts
             if (playerInSight)
             {
                 this.transform.rotation =
-                    Quaternion.Slerp(this.transform.rotation,
-                        Quaternion.LookRotation(direction), 0.1f);
+                    Quaternion.Slerp(this.transform.rotation, Quaternion.LookRotation(direction), 0.1f);
             }
             if(this.player.transform.GetComponent<CharacterController>().die)
             {
@@ -112,7 +111,7 @@ namespace Assets.Scripts
             {
                 if (animator.GetFloat("Attack1C") == 1.0f)
                 {
-                    this.player.GetComponent<PlayerAgent>().playerCharacterData.HEALTH -= 1.0f;
+                    this.player.GetComponent<PlayerAgent>().playerCharacterData.Health -= 1.0f;
                 }
             }
         }

@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Assets.Scripts
 {
-    [SerializeField]
+    [Serializable]
     public class BaseCharacter : MonoBehaviour
     {
         //Define attribute for base character

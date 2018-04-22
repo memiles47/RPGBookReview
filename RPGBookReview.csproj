@@ -297,6 +297,7 @@
     <Compile Include="Assets\Scripts\DoNotDestroy.cs" />
     <Compile Include="Assets\Scripts\GameMaster.cs" />
     <Compile Include="Assets\Scripts\NPC_BarbarianMovement.cs" />
+    <Compile Include="Assets\Scripts\PlayerAgent.cs" />
     <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -11,13 +11,13 @@ namespace Assets.Scripts
         public float h = 0.0f;
         public float v = 0.0f;
 
-        private bool attack = false;
-        private bool punch = false;
-        private bool run = false;
+        public bool attack = false;
+        public bool punch = false;
+        public bool run = false;
 
-        private bool jump = false;
-        private bool die = false;
-        private bool dead = false;
+        public bool jump = false;
+        public bool die = false;
+        public bool dead = false;
 
         private Vector3 moveDirection = Vector3.zero;
 

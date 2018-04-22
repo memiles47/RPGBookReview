@@ -1,18 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class DoNotDestroy : MonoBehaviour {
+namespace Assets.Scripts
+{
+    public class DoNotDestroy : MonoBehaviour {
 
-	// Use this for initialization
-	void Start ()
-	{
-	    DontDestroyOnLoad(this);
-    }
+        // Use this for initialization
+        private void Start ()
+        {
+            DontDestroyOnLoad(this);
+        }
 	
-	// Update is called once per frame
-	void Update ()
-	{
+        // Update is called once per frame
+        private void Update ()
+        {
 		
-	}
+        }
+    }
 }
