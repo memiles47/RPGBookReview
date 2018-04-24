@@ -14,6 +14,7 @@ namespace Assets.Scripts
         public float h = 0.0f;
         public float v = 0.0f;
         public bool attack = false; // used for attack mode 1
+        public bool attack1 = false; // needed when script was updated ** check **
         public bool jump = false; // used for jumping
         public bool die = false; // are we alive?
 
@@ -83,7 +84,7 @@ namespace Assets.Scripts
                 this.transform.rotation =
                     Quaternion.Slerp(this.transform.rotation, Quaternion.LookRotation(direction), 0.1f);
             }
-            if(this.player.transform.GetComponent<CharacterController>().die)
+            if(this.player.transform.GetComponent<BarbarianCharacterController>().die)
             {
                 animator.SetBool("Attack", false);
                 animator.SetFloat("Speed", 0.0f);
