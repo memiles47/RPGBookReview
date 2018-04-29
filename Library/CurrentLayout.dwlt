@@ -89,7 +89,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 58
+  controlID: 45
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -688,7 +688,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: e2340000
     m_LastClickedID: 13538
-    m_ExpandedIDs: 00000000e8270000c62b0000082d0000502e00005232000006350000d63600000a3700001a3d0000103e0000544000008041000094440000c8450000964a0000
+    m_ExpandedIDs: 00000000e8270000c62b0000082d0000502e0000163200005232000006350000d63600000a3700001a3d0000103e000054400000804100001c43000094440000c8450000964a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -719,18 +719,18 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000e8270000c62b0000082d0000502e0000163200005232000006350000d63600000a3700001a3d0000103e000054400000804100001c43000094440000c8450000964a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: scene1
-      m_OriginalName: scene1
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 17662
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -954,8 +954,8 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 70dfffff
-    m_LastClickedID: -8336
+    m_SelectedIDs: 
+    m_LastClickedID: 0
     m_ExpandedIDs: 9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
