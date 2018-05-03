@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 8b0cbfe1516f0354592374482e3a33b3
-timeCreated: 1433428543
-licenseType: Store
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -967,6 +965,7 @@ ModelImporter:
     13700080: barbarian_cloth_03_skn_LOD0
     13700082: barbarian_cloth_03_skn_LOD1
     20500000: //RootNode
+    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -1010,22 +1009,19 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
-      copied configuration does not match position in animation file:\n\t'BarbarianLtoe1'
-      : position error = 16.106905 mm\n\t'BarbarianRtoe1' : position error = 16.106911
-      mm\n"
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
       might lower retargeting quality:\nNote: Activate translation DOF on avatar to
-      improve retargeting quality.\n\t'BarbarianSpine3' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'BarbarianRibcage' is
-      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'BarbarianEye_L'
-      has translation animation that will be discarded.\n\t'BarbarianEye_R' has translation
-      animation that will be discarded.\n\t'Barbarianjaw' has translation animation
-      that will be discarded.\n"
+      improve retargeting quality.\n\t'BarbarianRibcage' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'BarbarianEye_L' has translation
+      animation that will be discarded.\n\t'BarbarianEye_R' has translation animation
+      that will be discarded.\n\t'Barbarianjaw' has translation animation that will
+      be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
