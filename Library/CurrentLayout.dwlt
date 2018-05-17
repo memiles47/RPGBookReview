@@ -152,8 +152,8 @@ MonoBehaviour:
     y: 0
     width: 492
     height: 947
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -675,7 +675,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: e2340000
     m_LastClickedID: 13538
-    m_ExpandedIDs: 00000000683f0000d24200007843000076440000d2450000104a00000a4f00007455000074560000be580000fa5900009e5b0000105d00004c5e0000
+    m_ExpandedIDs: 0000000046090000b60c00005c0d00009e0e0000fa0f00004014000040190000be1f0000be2000001c2300005c2400001626000098270000d8280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -703,7 +703,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000683f0000d24200007843000076440000d2450000104a00000a4f00007455000074560000be580000fa5900009e5b0000105d00004c5e0000
+    m_ExpandedIDs: 0000000046090000b60c00005c0d00009e0e0000fa0f00004014000040190000be1f0000be2000001c2300005c2400001626000098270000d8280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -864,9 +864,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 209.45592, y: -32.25, z: 233.49191}
+    m_Target: {x: 245.5625, y: 163.71875, z: 229.75}
     speed: 2
-    m_Value: {x: 209.45592, y: -32.25, z: 233.49191}
+    m_Value: {x: 245.5625, y: 163.71875, z: 229.75}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -894,13 +894,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Target: {x: 0.14819539, y: 0.6996463, z: -0.15197799, w: 0.6822319}
     speed: 2
-    m_Value: {x: -0.7071068, y: 0, z: -0, w: -0.7071068}
+    m_Value: {x: 0.14819504, y: 0.6996447, z: -0.15197764, w: 0.68223035}
   m_Size:
-    m_Target: 744.8722
+    m_Target: 534.1704
     speed: 2
-    m_Value: 744.8722
+    m_Value: 534.1704
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -939,9 +939,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 08640000
-    m_LastClickedID: 25608
-    m_ExpandedIDs: ccedffff00000000
+    m_SelectedIDs: ce2e0000
+    m_LastClickedID: 11982
+    m_ExpandedIDs: f0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
