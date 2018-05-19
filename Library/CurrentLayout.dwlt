@@ -152,8 +152,8 @@ MonoBehaviour:
     y: 0
     width: 365
     height: 851
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -180,8 +180,8 @@ MonoBehaviour:
     y: 0
     width: 1059
     height: 464
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -663,19 +663,20 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders: []
+    m_Folders:
+    - Assets/Scenes
   m_ViewMode: 0
   m_StartGridSize: 16
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Repositories\RPGBookReview
+  m_LastProjectPath: E:\Repositories\RPGBookReview
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: e2340000
     m_LastClickedID: 13538
-    m_ExpandedIDs: 00000000663f0000d04200007643000074440000d04500000e4a0000084f00007255000072560000bc580000fa5900009e5b0000105d00004c5e0000
+    m_ExpandedIDs: 00000000683f0000d24200007843000076440000d2450000104a00000a4f00007455000074560000be580000fc590000a05b0000125d00004e5e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -703,7 +704,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000663f0000d04200007643000074440000d04500000e4a0000084f00007255000072560000bc580000fa5900009e5b0000105d00004c5e0000
+    m_ExpandedIDs: 00000000683f0000d24200007843000076440000d2450000104a00000a4f00007455000074560000be580000fc590000a05b0000125d00004e5e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -896,11 +897,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.0126978615, y: -0.98411167, z: 0.15871212, w: 0.07869429}
     speed: 2
-    m_Value: {x: 0.012697739, y: -0.9841022, z: 0.15871058, w: 0.07869353}
+    m_Value: {x: -0.012697862, y: 0.98411167, z: -0.15871212, w: -0.07869429}
   m_Size:
-    m_Target: 175.7376
+    m_Target: 715.33295
     speed: 2
-    m_Value: 175.7376
+    m_Value: 715.33295
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -939,9 +940,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: da630000
-    m_LastClickedID: 25562
-    m_ExpandedIDs: c8edffff00000000
+    m_SelectedIDs: e6620000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 48e2ffffccedffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -960,7 +961,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
   m_ExpandedScenes:
-  - Awakening
+  - MainMenu
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
