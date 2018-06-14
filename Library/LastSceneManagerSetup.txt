@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Medieval Environment/Demos/Demo1/scene1.unity
+- path: Assets/Scenes/Awakening.unity
   isLoaded: 1
   isActive: 1
