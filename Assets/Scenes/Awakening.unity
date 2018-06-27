@@ -126,7 +126,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 408730, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.07
+      value: 15.556
       objectReference: {fileID: 0}
     - target: {fileID: 408730, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
       propertyPath: m_LocalPosition.z
@@ -196,7 +196,7 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 3
   m_TerrainData: {fileID: 15600000, guid: c8706394f0884dc4ab3d14b13581b817, type: 2}
-  m_TreeDistance: 5000
+  m_TreeDistance: 2000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
@@ -243,8 +243,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toolModeInt: 0
-  erosionTypeInt: 0
-  generatorTypeInt: 0
+  erosionTypeInt: 3
+  generatorTypeInt: 2
   isBrushOn: 0
   isBrushHidden: 0
   isBrushPainting: 0
@@ -257,11 +257,11 @@ MonoBehaviour:
   thermalIterations: 25
   thermalMinSlope: 1
   thermalFalloff: 0.5
-  hydraulicTypeInt: 0
+  hydraulicTypeInt: 1
   hydraulicIterations: 25
   hydraulicMaxSlope: 60
   hydraulicFalloff: 0.5
-  hydraulicRainfall: 0.01
+  hydraulicRainfall: 0.02
   hydraulicEvaporation: 0.5
   hydraulicSedimentSolubility: 0.01
   hydraulicSedimentSaturation: 0.1
@@ -277,31 +277,33 @@ MonoBehaviour:
   tidalSeaLevel: 50
   tidalRangeAmount: 5
   tidalCliffLimit: 60
-  windIterations: 25
-  windDirection: 0
+  windIterations: 12
+  windDirection: 270
   windForce: 0.5
   windLift: 0.01
   windGravity: 0.5
   windCapacity: 0.01
   windEntropy: 0.1
   windSmoothing: 0.25
-  slopeBlendMinAngle: 60
-  slopeBlendMaxAngle: 75
-  heightBlendPoints: []
+  slopeBlendMinAngle: 25
+  slopeBlendMaxAngle: 40
+  heightBlendPoints:
+  - 0.1
+  - 0.25
   gradientStyles: []
-  voronoiTypeInt: 0
-  voronoiCells: 16
+  voronoiTypeInt: 1
+  voronoiCells: 8
   voronoiFeatures: 1
-  voronoiScale: 1
+  voronoiScale: 0
   voronoiBlend: 1
-  diamondSquareDelta: 0.5
-  diamondSquareBlend: 1
-  perlinFrequency: 4
-  perlinAmplitude: 1
-  perlinOctaves: 8
-  perlinBlend: 1
-  smoothBlend: 1
-  smoothIterations: 0
+  diamondSquareDelta: 0.4
+  diamondSquareBlend: 0.5
+  perlinFrequency: 2
+  perlinAmplitude: 0.5
+  perlinOctaves: 9
+  perlinBlend: 0.5
+  smoothBlend: 0.25
+  smoothIterations: 1
   normaliseMin: 0
   normaliseMax: 1
   normaliseBlend: 1
