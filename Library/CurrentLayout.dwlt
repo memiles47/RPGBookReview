@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 1037
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -767,9 +767,9 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -779,18 +779,18 @@ MonoBehaviour:
       y: 17
       width: 1426
       height: 640
-    m_Scale: {x: 1.0524046, y: 1.0524046}
-    m_Translation: {x: 713, y: 315.34174}
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 713, y: 320}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -677.49603
-      y: -299.63925
-      width: 1354.9921
-      height: 608.1311
+      x: -713
+      y: -320
+      width: 1426
+      height: 640
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
@@ -830,9 +830,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 214.89844, y: 47.398438, z: 261.375}
+    m_Target: {x: 213.23926, y: 15.330078, z: 285.91797}
     speed: 2
-    m_Value: {x: 214.89844, y: 47.398438, z: 261.375}
+    m_Value: {x: 213.23926, y: 15.330078, z: 285.91797}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -860,13 +860,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Target: {x: 0.16327834, y: -0.23432027, z: 0.03995691, w: 0.9575165}
     speed: 2
-    m_Value: {x: -0.7071068, y: 0, z: -0, w: -0.7071068}
+    m_Value: {x: 0.16327834, y: -0.23432027, z: 0.03995691, w: 0.9575165}
   m_Size:
-    m_Target: 134.36899
+    m_Target: 19.528639
     speed: 2
-    m_Value: 134.36899
+    m_Value: 19.528639
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -905,9 +905,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 34320000
-    m_LastClickedID: 12852
-    m_ExpandedIDs: eafbffff00000000
+    m_SelectedIDs: e8fbffff
+    m_LastClickedID: -1048
+    m_ExpandedIDs: e8fbffffeafbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
