@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGBookReview", "Assembly-CSharp.csproj", "{7AD2CE50-FE71-30BF-1AA6-106D5897E540}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{7AD2CE50-FE71-30BF-1AA6-106D5897E540}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGBookReview", "Assembly-CSharp-firstpass.csproj", "{34385DDA-35D0-DFF0-1157-CE798CBE36BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{34385DDA-35D0-DFF0-1157-CE798CBE36BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGBookReview", "Assembly-CSharp-Editor-firstpass.csproj", "{EEE825D4-9F3E-7C5A-B2DC-7172D2B4FD5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{EEE825D4-9F3E-7C5A-B2DC-7172D2B4FD5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGBookReview", "Assembly-CSharp-Editor.csproj", "{CC65181F-1AD4-FB64-BB41-BF4F3F2200A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{CC65181F-1AD4-FB64-BB41-BF4F3F2200A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
