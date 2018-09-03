@@ -493,11 +493,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: 27492ee84e51da1468b711c34e19f44d, type: 2}
       propertyPath: InitialModule.startSize.minScalar
-      value: 5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: 27492ee84e51da1468b711c34e19f44d, type: 2}
       propertyPath: InitialModule.startSize.scalar
-      value: 10
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 27492ee84e51da1468b711c34e19f44d, type: 2}
+      propertyPath: ForceModule.y.scalar
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27492ee84e51da1468b711c34e19f44d, type: 2}
@@ -539,6 +543,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3fbd3cf34320a8046a5d95efcf13ac20, type: 2}
       propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 3fbd3cf34320a8046a5d95efcf13ac20, type: 2}
+      propertyPath: InitialModule.startSize.scalar
       value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
